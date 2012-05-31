@@ -1,7 +1,0 @@
-python-ethtool (0.6-0ubuntu1) natty; urgency=low
-
-  * Initial release (LP: #732759)
-  * debian/patches/libnl-1.0-support.patch: Adds support to libnl-1. Patch
-    taken from upstream.
-
- -- Andres Rodriguez <andreserl@ubuntu.com>  Thu, 10 Mar 2011 11:43:52 -0500
