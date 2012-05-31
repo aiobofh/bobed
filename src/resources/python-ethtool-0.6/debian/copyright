@@ -1,0 +1,59 @@
+Format: http://dep.debian.net/deps/dep5
+Upstream-Name: python-ethtool
+Upstream-Contact: David Sommerseth <davids@redhat.com>
+Source: http://fedorapeople.org/gitweb?p=dsommers/public_git/python-ethtool.git;a=summary
+Copyright: Copytright (C) 2008-2010 Red Hat, Inc
+
+Files: debian/*
+Copyright: 2011 Andres Rodriguez <andreserl@ubuntu.com>
+           2011 Canonical Ltd.
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+Files: *
+Copyright: 2008-2010 RedHat, Inc
+License: GPL-2
+ This application is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by the Free
+ Software Foundation; version 2.
+ .
+ This application is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+
+Files: pifconfig.py
+Copyright: Arnaldo Carvalho de Melo <acme@redhat.com>
+           Copyright (C) 2008 Red Hat Inc.
+License: GPL-2
+
+Files: python-ethtool/*
+Copyright: David Sommerseth <davids@redhat.com>
+           Copyright (C) 2009-2010 Red Hat Inc.
+License: GPL-2
+
+Files: python-ethtool/ethtool.c
+Copyright: Arnaldo Carvalho de Melo <acme@redhat.com>
+           David Sommerseth <davids@redhat.com>
+           Copyright (C) 2009-2010 Red Hat Inc.
+License: GPL-2
+
+Files: python-ethtool/ethtool-copy.h
+Copyright: Copyright (C) 1998 David S. Miller <davem@redhat.com>
+           Copyright 2001 Jeff Garzik <jgarzik@mandrakesoft.com>
+           Portions Copyright 2001 Sun Microsystems (thockin@sun.com)
+           Portions Copyright 2002 Intel <eli.kupermann@intel.com> <christopher.leech@intel.com> <scott.feldman@intel.com>

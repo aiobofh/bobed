@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with python2
+
+override_dh_auto_build:
+	python setup.py build
+
+override_dh_auto_install:
+	python setup.py install --install-layout=deb --root=$(CURDIR)/debian/tmp
+	mkdir -p $(CURDIR)/debian/tmp/usr/sbin
+	install -m 755 pethtool.py $(CURDIR)/debian/tmp/usr/sbin/pethtool
+	install -m 755 pifconfig.py $(CURDIR)/debian/tmp/usr/sbin/pifconfig
+	dh_install
+
+override_dh_clean:
+	rm -rf $(CURDIR)/build
+	dh_clean

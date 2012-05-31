@@ -1,0 +1,17 @@
+Source: python-ethtool
+Section: python
+Priority: optional
+Maintainer: Andres Rodriguez <andreserl@ubuntu.com>
+Build-Depends: debhelper (>= 7.0.50~), libnl-dev, pkg-config, python-dev (>= 2.6.6-3)
+Standards-Version: 3.9.1
+Homepage: http://fedoraproject.org/wiki/python-ethtool
+XS-Python-Version: >= 2.7
+
+Package: python-ethtool
+Architecture: any
+XB-Python-Version: ${python:Versions}
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Description: Python bindings for the ethtool kernel interface
+ Python bindings for the ethtool kernel interface, that allows querying and
+ changing of Ethernet card settings, such as speed, port, auto-negotiation, and
+ PCI locations.
